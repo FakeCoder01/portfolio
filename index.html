@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayon Samajder</title>
+  <link rel="shortcut icon" href="/static/img/favicon.jpg" type="image/x-icon">
+  <script src="/static/js/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="/static/css/tailwind.css">
+  <link rel="stylesheet" type="text/css" href="/static/css/terminal.css">
+</head>
+
+<body class="bg-slate-900" style="overflow-x:hidden ; overflow-y: scroll;">
+  <div class="custom-cursor"></div>
+  <main class="font-mono text-[#39ff14] m-4 p-4">
+    <div hidden id="layscreen">
+      <p>to close type <b>exit</b></p>
+      <div id="filecontent"> </div>
+    </div>
+    <div class="text-center space-x-4">
+      <div class="inline-block">
+        <span class=""># &nbsp;<a title="Download Resume" target="_blank" href="/pdf/resume.pdf"
+            class="underline text-yellow-300">AYON SAMAJDER</a> &nbsp;#</span><br>
+        <span class=""># &nbsp; &nbsp;to start &nbsp; &nbsp; #</span><br>
+        <span class=""># with the r&eacute;sum&eacute; #</span><br>
+        <span class=""># &nbsp; &nbsp; &nbsp;TYPE &nbsp; &nbsp; &nbsp; #</span><br>
+        <span class=""># &nbsp; &nbsp; <b style="color: aqua;">`help`</b> &nbsp; &nbsp; &nbsp;#</span><br>
+        <span class=""># <span style="border-bottom: 1px aqua dotted;" class="text-sm font-semibold text-pink-600">
+          <span class="pr-1 mr-1" style="border-right: 1px solid white;line-height: 16px; ">TAB</span>Up/Down arrow</span> #</span><br>
+        <span class=""># # # # # # # # # #</span><br>
+      </div>
+      <div class="inline-block">
+        <span class=""># <span class="text-pink-400">UNDERGRAD @ TSU</span> #</span><br>
+        <span class=""># &nbsp; &nbsp; &nbsp; &nbsp; __ &nbsp; &nbsp; &nbsp;#</span><br>
+        <span class=""># &nbsp; &nbsp;#___( ^)&lt; &nbsp; &nbsp;#</span><br>
+        <span class=""># &nbsp; &nbsp; \_____) &nbsp; &nbsp; #</span><br>
+        <span class=""># &nbsp; ~~~~~~~~~~~ &nbsp; #</span><br>
+        <span class=""># &nbsp; ~~~~~~~~~~~ &nbsp; #</span><br>
+        <span class=""># # # # # # # # # #</span><br>
+      </div>
+      <div class="inline-block">
+        <span class="">#&nbsp; <span style="color: aqua;">FULL STACK DEV</span> #</span><br>
+        <span class=""># &nbsp; &nbsp; ______ &nbsp; &nbsp; &nbsp;#</span><br>
+        <span class=""># &nbsp; _/___|__\___ &nbsp;#</span><br>
+        <span class=""># &nbsp;/__ ______ __) #</span><br>
+        <span class=""># &nbsp;..(+)....(+).. #</span><br>
+        <span class=""># &nbsp;.............. #</span><br>
+        <span class=""># # # # # # # # # #</span><br>
+      </div>
+      <div class="inline-block">
+        <span class=""># <span class="text-purple-400">Django/MySQL/JS</span> #</span><br>
+        <span class=""># &nbsp; &nbsp; ______ &nbsp; &nbsp; &nbsp;#</span><br>
+        <span class=""># |___|__|__\___ &nbsp;#</span><br>
+        <span class=""># \____________/ &nbsp;#</span><br>
+        <span class=""># &nbsp;~~~~~~~~~~~~~ &nbsp;#</span><br>
+        <span class=""># &nbsp;~~~~~~~~~~~~~ &nbsp;#</span><br>
+        <span class=""># # # # # # # # # #</span><br>
+      </div>
+    </div>
+    <div id="output-area">
+      <div id="last_result" class="font-sm"></div>
+    </div>
+    <div id="input-area" class="w-full">
+      <label for="command">
+        root@fakecoder:
+        <span id="current_pwd">~</span>
+        <span class="text-blue-400">$</span>
+      </label> 
+      <input title="" autofocus class="w-3/5 bg-slate-900 border-none outline-none" type="text" name="command" id="command" required>
+    </div>
+  </main>
+</body>
+<script src="/static/js/file.js"></script>
+<script src="/static/js/terminal.js"></script>
+<script src="/static/js/mouse.js"></script>
+<script src="/static/js/auto-complete.js"></script>
+
+</html>
