@@ -84,3 +84,19 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #08850e; 
 }
+
+@media (max-width: 480px){
+    .i-dont-know-what-im-doing{
+      font-size : 14px !important;
+    }
+    input[type="text"]{
+            width: 140px;
+    }
+	main{
+      padding-left: 8px !important;
+      margin-left: 0px !important;
+  }
+  .tab-arrow{
+    height: 11px !important;
+  }
+}

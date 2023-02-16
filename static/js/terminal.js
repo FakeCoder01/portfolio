@@ -153,7 +153,7 @@ function command_manger(command, arg = '') {
 }
 $('#command').on("keyup", function (e) {
   if (e.keyCode == 13) {
-    if (e.target.value == '') return;
+    if (e.target.value == '' || e.target.value.length>40) return;
     const command = e.target.value.split(' ');
     arg1 = command[0];
     arg2 = command[1];
